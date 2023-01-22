@@ -1,0 +1,16 @@
+{
+  "name": "anosu-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "Jitsu",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.60"
+  }
+}
