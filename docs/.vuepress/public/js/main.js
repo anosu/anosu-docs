@@ -1,11 +1,11 @@
-let secs = parseInt((new Date().getTime() - new Date('2022-12-21 23:26:10').getTime()) / 1000)
-let time = {
+var secs = parseInt((new Date().getTime() - new Date('2022-12-21 23:26:10').getTime()) / 1000)
+var time = {
     day: Math.floor(secs / 86400),
     hour: Math.floor(secs % 86400 / 3600),
     min: Math.floor(secs % 86400 % 3600 / 60),
     sec: secs % 86400 % 3600 % 60
 }
-let xmlhttp;
+var xmlhttp;
 xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
