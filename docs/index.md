@@ -27,9 +27,9 @@ features:
     details: --天--小时--分钟--秒
 
   - title: 调用次数
-    details: 自2023.1.21：------次
+    details: 自2023.1.22：------次
 
 copyright: false
 footerHtml: true
-footer: Powered by <a href="https://jitsu.top" target="_blank">Jitsu</a>
+footer: Powered by <a href="https://jitsu.top" target="_blank">Jitsu</a><br><br><a href="https://icp.gov.moe/?keyword=20231458" target="_blank">萌ICP备20231458号</a>
 ---
